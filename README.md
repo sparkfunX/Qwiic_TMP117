@@ -1,4 +1,4 @@
-SparkFun <PRODUCT NAME>
+SparkFun TMP117 Arduino Library
 ========================================
 
 ![SparkFun Part Name](URL for picture of part)
@@ -10,11 +10,15 @@ SparkFun <PRODUCT NAME>
 Repository Contents
 -------------------
 
+* **/examples** - Example sketch for the library (.ino). Run this from the Arduino IDE.
+* **/src** - Source files for the library (.cpp, .h).
+* **/keywords.txt** - Keywords from this library that will be highlighted in the Arduino IDE.
+* **/library.properties** - General library properties for the Arduino package manager.
 * **/Documentation** - Data sheets, additional product information
-* **/Enclosure** - Enclosure files 
-* **/Firmware** - Example code 
+* **/Enclosure** - Enclosure Files
+* **/Firmware** - Example Code
 * **/Hardware** - Eagle design files (.brd, .sch)
-* **/Libraries** - Libraries for use with the <PRODUCT NAME>
+* **/Libraries** - Libraries for use with the TMP117
 * **/Production** - Production panel files (.brd)
 * **/Software** - Related software for the <PRODUCT NAME>
 
