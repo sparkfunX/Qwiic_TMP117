@@ -30749,7 +30749,7 @@ SCL:  1001011x</text>
 <label x="180.34" y="121.92" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
-<net name="!INT" class="0">
+<net name="!ALERT" class="0">
 <segment>
 <pinref part="J4" gate="G$1" pin="1"/>
 <wire x1="71.12" y1="43.18" x2="68.58" y2="43.18" width="0.1524" layer="91"/>
@@ -30759,10 +30759,10 @@ SCL:  1001011x</text>
 <pinref part="U1" gate="G$1" pin="!ALERT"/>
 <pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="162.56" y1="147.32" x2="167.64" y2="147.32" width="0.1524" layer="91"/>
-<label x="195.58" y="147.32" size="1.27" layer="95" xref="yes"/>
 <wire x1="167.64" y1="147.32" x2="195.58" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="149.86" x2="167.64" y2="147.32" width="0.1524" layer="91"/>
 <junction x="167.64" y="147.32"/>
+<label x="195.58" y="147.32" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$1" class="0">

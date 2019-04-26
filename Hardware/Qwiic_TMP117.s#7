@@ -30640,7 +30640,7 @@ SCL:  1001011x</text>
 <instance part="U$1" gate="G$1" x="149.86" y="38.1" smashed="yes"/>
 <instance part="U$3" gate="G$1" x="226.06" y="63.5" smashed="yes"/>
 <instance part="I2C" gate="G$1" x="182.88" y="162.56" smashed="yes" rot="R270">
-<attribute name="NAME" x="183.261" y="160.02" size="1.778" layer="95" font="vector" rot="R270"/>
+<attribute name="NAME" x="181.229" y="159.004" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="182.499" y="160.02" size="1.778" layer="96" font="vector" rot="R270" align="top-left"/>
 </instance>
 <instance part="JP10" gate="G$1" x="167.64" y="167.64" smashed="yes" rot="R90">
