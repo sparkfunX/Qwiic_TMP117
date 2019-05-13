@@ -5,7 +5,7 @@ SparkX Qwiic TMP117
 
 [*SparkFun Part Name (SKU)*](URL for product on Sparkfun.com)
 
-<Temperature Sensor with accuracy of up to +/-0.1 degrees celsius.>
+Temperature Sensor with accuracy of up to +/-0.1 degrees celsius.
 
 Repository Contents
 -------------------
