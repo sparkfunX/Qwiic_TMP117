@@ -7,5 +7,5 @@ oz copper, 1oz
 finish, HASL lead free
 stencils, top
 pcs per panel, 9
-min trace width, 0.203200mm / 0.008000in
+min trace width, 0.177800mm / 0.007000in
 min drill size, 0.381000mm / 0.015000in

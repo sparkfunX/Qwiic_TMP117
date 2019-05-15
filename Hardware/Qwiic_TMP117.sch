@@ -6654,11 +6654,10 @@ I2C Pull-ups from bus</text>
 <text x="172.72" y="177.8" size="1.778" layer="97" font="vector">Clear jumper JP10 to remove 
 pull-up from INT</text>
 <text x="104.14" y="114.3" size="1.27" layer="97">ADD0 Adress Pin and Slave Adresses
-GND: 1001000x
-V+:    1001001x
-SDA: 1001010x
-SCL:  1001011x
-x represents the read-write bit</text>
+GND: 1001000x (0x48)
+V+:    1001001x (0x49)
+SDA: 1001010x (0x4A)
+SCL:  1001011x (0x4B)</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>

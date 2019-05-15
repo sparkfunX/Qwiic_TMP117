@@ -6160,68 +6160,6 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 </deviceset>
 </devicesets>
 </library>
-<library name="my-library">
-<packages>
-<package name="TMP117">
-<smd name="3" x="-0.975" y="-0.65" dx="0.45" dy="0.3" layer="1"/>
-<smd name="2" x="-0.975" y="0" dx="0.45" dy="0.3" layer="1"/>
-<smd name="1" x="-0.975" y="0.65" dx="0.45" dy="0.3" layer="1"/>
-<smd name="6" x="0.975" y="0.65" dx="0.45" dy="0.3" layer="1"/>
-<smd name="5" x="0.975" y="0" dx="0.45" dy="0.3" layer="1"/>
-<smd name="4" x="0.975" y="-0.65" dx="0.45" dy="0.3" layer="1"/>
-<circle x="-0.942" y="1.385" radius="0.05" width="0.2032" layer="21"/>
-<wire x1="-1" y1="1" x2="-1" y2="-1" width="0.127" layer="51"/>
-<wire x1="-1" y1="-1" x2="1" y2="-1" width="0.127" layer="51"/>
-<wire x1="1" y1="-1" x2="1" y2="1" width="0.127" layer="51"/>
-<wire x1="1" y1="1" x2="-1" y2="1" width="0.127" layer="51"/>
-<wire x1="-1" y1="1" x2="1" y2="1" width="0.127" layer="21"/>
-<wire x1="-1" y1="-1" x2="1" y2="-1" width="0.127" layer="21"/>
-<text x="-1.3" y="1.15" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-1.3" y="-1.5" size="0.4064" layer="27">&gt;VALUE</text>
-</package>
-</packages>
-<symbols>
-<symbol name="TMP117">
-<pin name="SCL" x="12.7" y="0" length="short" rot="R180"/>
-<pin name="GND" x="-10.16" y="-5.08" length="short"/>
-<pin name="!ALERT" x="12.7" y="5.08" length="short" rot="R180"/>
-<pin name="ADD0" x="12.7" y="-5.08" length="short" rot="R180"/>
-<pin name="V+" x="-10.16" y="5.08" length="short" direction="pwr"/>
-<pin name="SDA" x="12.7" y="2.54" length="short" rot="R180"/>
-<wire x1="-7.62" y1="7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
-<wire x1="10.16" y1="7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
-<text x="-7.62" y="8.128" size="1.778" layer="95">&gt;NAME</text>
-<text x="-7.62" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="TMP117" prefix="U">
-<description>Temperature Sensor
-TMP117x High-Accuracy, Low-Power, Digital Temperature Sensor
-With SMBus™- and I2C-Compatible Interface</description>
-<gates>
-<gate name="G$1" symbol="TMP117" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="TMP117">
-<connects>
-<connect gate="G$1" pin="!ALERT" pad="3"/>
-<connect gate="G$1" pin="ADD0" pad="4"/>
-<connect gate="G$1" pin="GND" pad="2"/>
-<connect gate="G$1" pin="SCL" pad="1"/>
-<connect gate="G$1" pin="SDA" pad="6"/>
-<connect gate="G$1" pin="V+" pad="5"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="SparkFun-Jumpers" urn="urn:adsk.eagle:library:528">
 <description>&lt;h3&gt;SparkFun Jumpers&lt;/h3&gt;
 In this library you'll find jumpers, or other semipermanent means of changing current paths. The least permanent form is the solder jumper. These can be changed by adding, removing, or moving solder. In cases that are less likely to be changed we have jumpers that are connected with traces. These can be cut with a razor, or reconnected with solder. Reference designator JP.
@@ -6594,6 +6532,68 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
+<library name="TMP117">
+<packages>
+<package name="TMP117">
+<smd name="3" x="-0.975" y="-0.65" dx="0.45" dy="0.3" layer="1"/>
+<smd name="2" x="-0.975" y="0" dx="0.45" dy="0.3" layer="1"/>
+<smd name="1" x="-0.975" y="0.65" dx="0.45" dy="0.3" layer="1"/>
+<smd name="6" x="0.975" y="0.65" dx="0.45" dy="0.3" layer="1"/>
+<smd name="5" x="0.975" y="0" dx="0.45" dy="0.3" layer="1"/>
+<smd name="4" x="0.975" y="-0.65" dx="0.45" dy="0.3" layer="1"/>
+<circle x="-0.942" y="1.385" radius="0.05" width="0.2032" layer="21"/>
+<wire x1="-1" y1="1" x2="-1" y2="-1" width="0.127" layer="51"/>
+<wire x1="-1" y1="-1" x2="1" y2="-1" width="0.127" layer="51"/>
+<wire x1="1" y1="-1" x2="1" y2="1" width="0.127" layer="51"/>
+<wire x1="1" y1="1" x2="-1" y2="1" width="0.127" layer="51"/>
+<wire x1="-1" y1="1" x2="1" y2="1" width="0.127" layer="21"/>
+<wire x1="-1" y1="-1" x2="1" y2="-1" width="0.127" layer="21"/>
+<text x="-1.3" y="1.15" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-1.3" y="-1.5" size="0.4064" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="TMP117">
+<pin name="SCL" x="12.7" y="0" length="short" rot="R180"/>
+<pin name="GND" x="-10.16" y="-5.08" length="short"/>
+<pin name="!INT" x="12.7" y="5.08" length="short" rot="R180"/>
+<pin name="ADD0" x="12.7" y="-5.08" length="short" rot="R180"/>
+<pin name="V+" x="-10.16" y="5.08" length="short" direction="pwr"/>
+<pin name="SDA" x="12.7" y="2.54" length="short" rot="R180"/>
+<wire x1="-7.62" y1="7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<text x="-7.62" y="8.128" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="TMP117" prefix="U">
+<description>Temperature Sensor
+TMP117x High-Accuracy, Low-Power, Digital Temperature Sensor
+With SMBus™- and I2C-Compatible Interface</description>
+<gates>
+<gate name="G$1" symbol="TMP117" x="3.81" y="0"/>
+</gates>
+<devices>
+<device name="" package="TMP117">
+<connects>
+<connect gate="G$1" pin="!INT" pad="3"/>
+<connect gate="G$1" pin="ADD0" pad="4"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="SCL" pad="1"/>
+<connect gate="G$1" pin="SDA" pad="6"/>
+<connect gate="G$1" pin="V+" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -6623,7 +6623,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND7" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND5" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND6" library="SparkFun" deviceset="GND" device=""/>
-<part name="U1" library="my-library" deviceset="TMP117" device=""/>
 <part name="JP1" library="SparkFun-Jumpers" library_urn="urn:adsk.eagle:library:528" deviceset="JUMPER-SMT_2_NO" device="_SILK" package3d_urn="urn:adsk.eagle:package:39279/1" value=""/>
 <part name="SUPPLY5" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="JP2" library="SparkFun-Jumpers" library_urn="urn:adsk.eagle:library:528" deviceset="JUMPER-SMT_2_NO" device="_SILK" package3d_urn="urn:adsk.eagle:package:39279/1" value=""/>
@@ -6641,6 +6640,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="JP9" library="SparkFun" deviceset="STAND-OFF" device=""/>
 <part name="I2C" library="SparkFun-Jumpers" library_urn="urn:adsk.eagle:library:528" deviceset="JUMPER-SMT_3_2-NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39289/1" value=""/>
 <part name="JP10" library="SparkFun-Passives" deviceset="JUMPER-PAD-2-NC_BY_TRACE" device="" value="INT"/>
+<part name="U2" library="TMP117" deviceset="TMP117" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6657,7 +6657,8 @@ pull-up from INT</text>
 GND: 1001000x
 V+:    1001001x
 SDA: 1001010x
-SCL:  1001011x</text>
+SCL:  1001011x
+x represents the read-write bit</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -6724,10 +6725,6 @@ SCL:  1001011x</text>
 <instance part="GND6" gate="1" x="33.02" y="27.94" smashed="yes">
 <attribute name="VALUE" x="30.48" y="25.4" size="1.778" layer="96"/>
 </instance>
-<instance part="U1" gate="G$1" x="149.86" y="142.24" smashed="yes">
-<attribute name="NAME" x="142.24" y="150.368" size="1.778" layer="95"/>
-<attribute name="VALUE" x="142.24" y="132.08" size="1.778" layer="96"/>
-</instance>
 <instance part="JP1" gate="G$1" x="180.34" y="129.54" smashed="yes" rot="R270">
 <attribute name="NAME" x="182.88" y="132.08" size="1.778" layer="95" font="vector" rot="R270"/>
 <attribute name="VALUE" x="177.8" y="132.08" size="1.778" layer="96" font="vector" rot="R270" align="top-left"/>
@@ -6785,6 +6782,10 @@ SCL:  1001011x</text>
 <attribute name="NAME" x="165.1" y="165.1" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="172.72" y="165.1" size="1.778" layer="96" rot="R90"/>
 </instance>
+<instance part="U2" gate="G$1" x="149.86" y="142.24" smashed="yes">
+<attribute name="NAME" x="142.24" y="150.368" size="1.778" layer="95"/>
+<attribute name="VALUE" x="137.16" y="132.08" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -6820,9 +6821,9 @@ SCL:  1001011x</text>
 </segment>
 <segment>
 <pinref part="GND2" gate="1" pin="GND"/>
-<pinref part="U1" gate="G$1" pin="GND"/>
 <wire x1="137.16" y1="134.62" x2="137.16" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="137.16" x2="139.7" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="U2" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
@@ -6867,8 +6868,8 @@ SCL:  1001011x</text>
 <segment>
 <pinref part="SUPPLY6" gate="G$1" pin="3.3V"/>
 <wire x1="137.16" y1="149.86" x2="137.16" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="V+"/>
 <wire x1="137.16" y1="147.32" x2="139.7" y2="147.32" width="0.1524" layer="91"/>
+<pinref part="U2" gate="G$1" pin="V+"/>
 </segment>
 <segment>
 <pinref part="I2C" gate="G$1" pin="2"/>
@@ -6898,13 +6899,13 @@ SCL:  1001011x</text>
 <label x="30.48" y="38.1" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="SDA"/>
 <pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="175.26" y1="144.78" x2="162.56" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="144.78" x2="175.26" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="144.78" x2="175.26" y2="144.78" width="0.1524" layer="91"/>
 <junction x="175.26" y="144.78"/>
 <label x="195.58" y="144.78" size="1.27" layer="95" xref="yes"/>
+<pinref part="U2" gate="G$1" pin="SDA"/>
 </segment>
 <segment>
 <pinref part="JP2" gate="G$1" pin="2"/>
@@ -6929,13 +6930,13 @@ SCL:  1001011x</text>
 <label x="30.48" y="71.12" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="SCL"/>
 <pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="190.5" y1="142.24" x2="162.56" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="142.24" x2="190.5" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="142.24" x2="190.5" y2="142.24" width="0.1524" layer="91"/>
 <junction x="190.5" y="142.24"/>
 <label x="195.58" y="142.24" size="1.27" layer="95" xref="yes"/>
+<pinref part="U2" gate="G$1" pin="SCL"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="G$1" pin="2"/>
@@ -6943,20 +6944,20 @@ SCL:  1001011x</text>
 <label x="180.34" y="121.92" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
-<net name="!ALERT" class="0">
+<net name="!INT" class="0">
 <segment>
 <pinref part="J4" gate="G$1" pin="1"/>
 <wire x1="71.12" y1="43.18" x2="68.58" y2="43.18" width="0.1524" layer="91"/>
 <label x="68.58" y="43.18" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="!ALERT"/>
 <pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="162.56" y1="147.32" x2="167.64" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="147.32" x2="195.58" y2="147.32" width="0.1524" layer="91"/>
+<label x="195.58" y="147.32" size="1.27" layer="95" xref="yes"/>
+<pinref part="U2" gate="G$1" pin="!INT"/>
 <wire x1="167.64" y1="149.86" x2="167.64" y2="147.32" width="0.1524" layer="91"/>
 <junction x="167.64" y="147.32"/>
-<label x="195.58" y="147.32" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -6968,7 +6969,6 @@ SCL:  1001011x</text>
 </net>
 <net name="ADD0" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="ADD0"/>
 <wire x1="162.56" y1="137.16" x2="165.1" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="JP3" gate="G$1" pin="1"/>
 <wire x1="165.1" y1="137.16" x2="172.72" y2="137.16" width="0.1524" layer="91"/>
@@ -6987,6 +6987,7 @@ SCL:  1001011x</text>
 <wire x1="193.04" y1="137.16" x2="195.58" y2="137.16" width="0.1524" layer="91"/>
 <junction x="193.04" y="137.16"/>
 <label x="195.58" y="137.16" size="1.27" layer="95" xref="yes"/>
+<pinref part="U2" gate="G$1" pin="ADD0"/>
 </segment>
 </net>
 <net name="N$2" class="0">
