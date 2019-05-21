@@ -13,6 +13,7 @@ Repository Contents
 * **/Documents** - Data sheet for the TMP117
 * **/Hardware** - Eagle design files (.brd, .sch)
 * **/Production** - Production panel files (.brd) within the Production folder
+* **/SparkFun_TMP117_Arduino_Library** - The library and example sketches for the device
 
 
 License Information
